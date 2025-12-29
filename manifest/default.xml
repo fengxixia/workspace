@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- 默认远端 -->
+  <remote
+      name="github"
+      fetch="https://github.com/"
+      review="github.com" />
+
+  <!-- 默认属性 -->
+  <default
+      remote="github"
+      revision="main"
+      sync-j="4"
+      sync-c="true" />
+
+  <!-- 组件仓库 -->
+  <project name="fengxixia/ota"
+           path="components/ota" />
+
+  <project name="fengxixia/logging"
+           path="components/logging" />
+
+</manifest>
