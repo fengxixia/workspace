@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- 默认远端 -->
   <remote
       name="github"
-      fetch="git@github.com:" />
+      fetch="https://github.com/fengxixia" />
 
-  <!-- 默认属性 -->
   <default
       remote="github"
       revision="main"
-      sync-j="4"
-      sync-c="true" />
+      sync-j="4" />
 
-  <!-- 组件仓库 -->
-  <project name="fengxixia/ota"
-           path="components/ota" />
+  <project
+      name="ota"
+      path="components/ota" />
 
-  <project name="fengxixia/logging"
-           path="components/logging" />
+  <project
+      name="logging"
+      path="components/logging" />
 
 </manifest>
