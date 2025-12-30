@@ -1,0 +1,43 @@
+# ===============================
+# repo workspace (VERY IMPORTANT)
+# ===============================
+
+.repo/
+components/
+
+# ===============================
+# CMake build artifacts
+# ===============================
+
+build/
+build-*/
+build_*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+
+# ===============================
+# Editor / IDE
+# ===============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# OS junk
+# ===============================
+
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs / temp
+# ===============================
+
+*.log
